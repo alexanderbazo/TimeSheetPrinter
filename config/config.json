@@ -1,0 +1,22 @@
+{
+	"version": "1.0",
+	"tmpFolder": "tmp",
+	"wiki": {
+		"loginURL": "<WIKIURL>",
+		"user": "<USERNAME>",
+		"password": "<PASSWORD>"
+	},
+	"email": {
+		"sender": "<SENDER-EMAIL>",
+		"recipient": "<RECIPIENT-EMAIL>",
+		"subject": "Stundenzettel: ",
+		"text": "Dies ist eine automatisch generierte Email. Im Anhang findet sich der aktuelle Stundenzettel von "
+	},
+	"students": [{
+		"name": "<STUDENT-NAME>",
+		"url": "<STUDENT-TIMESHEET-URL>",
+		"file": "<STUDENT-TIMESHEET-FILENAME>"
+	}]
+}
+
+
